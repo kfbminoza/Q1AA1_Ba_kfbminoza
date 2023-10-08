@@ -12,7 +12,15 @@ body {
     background: url(dark.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
+
+main{
+    flex-grow: 1;
+}
+
 #navbar a{
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -65,14 +73,14 @@ body {
 }
 
 #footer{
+    border: 0.16;
     width: 100vw;
     height: 10vh;
     background-color: transparent;
     text-align: justify;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     display: inline-block;
-    background-color: transparent;
 }
 
 #footer #copyright{
@@ -91,8 +99,8 @@ body {
 #footer #sociallinks a{
     float: right;
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 6.633499170812604vh;
+    width: 6.633499170812604vh;
     background-color: rgba(255,255,255,0.2);
     margin:0 10px 10px 0;
     text-align: center;
@@ -122,4 +130,112 @@ body {
 #footer #sociallinks a:nth-child(3) {
     top: 0;
     right: 25vh;
+}
+
+#hding{
+    border: none;
+    display: inline-block;
+    display: block;
+    position: absolute;
+    float: right;
+    padding: 10px;
+    top: 30vh;
+    left: 10vw;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hdingtext{
+    margin: 10px;
+    position: relative;
+}
+
+#gallery{
+    margin-top: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    top: 15vh;
+    left: 25vw;
+    position: inherit;
+}
+#pic1
+{
+    background: url(1.png)no-repeat ;
+    width: 31.35vh;
+    height: 31.35vh;
+    display: inline-block;
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
+    margin-left: 0.5vh;
+    margin-right: 0.9vh;
+    background-position: center;
+}
+
+#pic2
+{
+    background: url(2.png)no-repeat;
+        width: 31.35vh;
+        height: 31.35vh;
+    display: inline-block;
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    background-position: center;
+}
+
+#pic3
+{
+    background: url(3.png) no-repeat;
+        width: 31.35vh;
+        height: 31.35vh;
+    display: inline-block;
+
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+    margin-right: 0.5vh;
+    background-position: center;
+}
+
+#pic4
+{
+    background: url(4.jpg) no-repeat;
+        width: 31.35vh;
+        height: 31.35vh;
+    display: inline-block;
+    margin-top: 1vh;
+    margin-bottom: 0.5vh;
+    margin-left: 1vh;
+    margin-right: 0.5vh;
+    background-position: center;
+}
+
+#pic5
+{
+    background: url(5.jpg) no-repeat;
+        width: 31.35vh;
+        height: 31.35vh;
+    display: inline-block;
+    margin-top: 1vh;
+    margin-bottom: 0.5vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    background-position: center;
+}
+
+#pic6
+{
+    background: url(6.jpg) no-repeat;
+        width: 31.35vh;
+        height: 31.35vh;
+    display:inline-block;
+    margin-top: 1vh;
+    margin-bottom: 0.5vh;
+    margin-left: 1vh;
+    margin-right: 0.5vh;
+    background-position: center;
+    
 }

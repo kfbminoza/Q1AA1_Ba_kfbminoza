@@ -73,14 +73,14 @@ main{
 }
 
 #footer{
+    border: 0.16;
     width: 100vw;
     height: 10vh;
     background-color: transparent;
     text-align: justify;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     display: inline-block;
-    background-color: transparent;
 }
 
 #footer #copyright{
@@ -99,8 +99,8 @@ main{
 #footer #sociallinks a{
     float: right;
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 6.633499170812604vh;
+    width: 6.633499170812604vh;
     background-color: rgba(255,255,255,0.2);
     margin:0 10px 10px 0;
     text-align: center;
@@ -183,6 +183,5 @@ main{
 #link2 a:hover::before{
     width: 100%;
 }
-
 
 
